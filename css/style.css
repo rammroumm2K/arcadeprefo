@@ -1,0 +1,104 @@
+@font-face {
+    font-family: '8-bit Arcade In';
+    src: url('../Fonts/8-bitArcadeIn.woff2') format('woff2'),
+        url('../Fonts/8-bitArcadeIn.woff') format('woff'),
+        url('../Fonts/8-bitArcadeIn.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+h1 {
+    color:yellow;
+    text-align: center;
+    
+    font-size: 70px;
+    box-shadow: 10px 10px 10px rgba(252, 0, 185, 0.516), -5px -5px 20px rgb(93, 0, 255);
+    text-shadow: 1px 1px 2px orangered;
+    background-image: url(../image/pacmanlabirinto.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px
+}
+body {
+    font-family: '8-bit Arcade In';
+    background-image: url("../image/giphy\ \(1\).gif");
+    background-size: cover;
+    font-size: 25px;
+    
+}
+p {
+    color: white;
+
+}
+p a {
+    background-color: rgb(255, 251, 0);
+}
+ul {
+    color: aliceblue;
+}
+ol {
+    color: aliceblue;}
+dd {
+    color: aliceblue;
+}
+dt {
+    color: aliceblue;
+}
+
+main{
+    width: 50%;
+    background-color: rgba(67, 67, 67, 0.5);
+    border: 1px solid white;
+    padding: 5px;
+    margin: auto;
+}
+footer{
+    background-color: rgba(67, 67, 67, 0.5);
+    text-align: center;
+}
+
+    .frame {
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+background-image: url("https://wpmisc.ites/default/files/wallpaper/abstract/66172/neon-grid-hd-wallpapers-66172-5530351.png");
+    background-size: cover;
+    position: relative;
+    top: -5rem;
+    
+}
+
+
+.frame1 {
+    text-align: center;
+    margin: auto;
+    z-index: 10;
+    margin-top: 35px;
+}
+.button {
+ text-align: middle;
+ margin-top: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 80px;
+padding-right: 80px;
+background-color: transparent;
+-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0);
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+border: 3px double #FF4294;
+border-radius: 3px;
+color: #00004A;
+font-family: 'Luckiest Guy', cursive;
+font-size: 16px;
+}
+.btn-group {
+    margin-top: 80px;
+}
