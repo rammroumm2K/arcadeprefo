@@ -7,6 +7,26 @@
     font-style: normal;
     font-display: swap;
 }
+a:link {
+    color: rgb(128, 0, 87);
+    
+  }
+  a:visited {
+    color: rgb(255, 106, 0);
+    
+  }
+  a:hover {
+    color: red;
+    
+  }
+  a:active {
+    color: rgb(68, 0, 255);
+  }
+footer > p  >a{
+    background-image: url(../image/PACMAN.gif);
+    background-position: center;
+    background-size: cover;
+}
 h1 {
     color:yellow;
     text-align: center;
@@ -23,17 +43,12 @@ h1 {
 }
 body {
     font-family: '8-bit Arcade In';
-    background-image: url("../image/giphy\ \(1\).gif");
+    background-image: url("../image/SkyStar.gif");
     background-size: cover;
     font-size: 25px;
-    
 }
 p {
     color: white;
-
-}
-p a {
-    background-color: rgb(255, 251, 0);
 }
 ul {
     color: aliceblue;
@@ -66,8 +81,8 @@ footer{
     margin: auto;
     text-align: center;
     border: 1px solid transparent;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    -webkit-box-shadow: 0px 10px 13px -7px black, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px black, 5px 5px 15px 5px rgba(0,0,0,0);
 background-image: url("https://wpmisc.ites/default/files/wallpaper/abstract/66172/neon-grid-hd-wallpapers-66172-5530351.png");
     background-size: cover;
     position: relative;
@@ -90,15 +105,18 @@ padding-bottom: 10px;
 padding-left: 80px;
 padding-right: 80px;
 background-color: transparent;
--webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0); 
-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0);
-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-border: 3px double #FF4294;
-border-radius: 3px;
-color: #00004A;
-font-family: 'Luckiest Guy', cursive;
-font-size: 16px;
+-webkit-box-shadow: 5px 5px 5px 0px orange, inset 4px 4px 15px 0px orange, 5px 5px 15px 5px rgba(255,139,253,0); 
+box-shadow: 5px 5px 5px 0px orange, inset 4px 4px 15px 0px orange, 5px 5px 15px 5px rgba(255,139,253,0);
+text-shadow: blue 0px 0px 5px, blue 0px 0px 10px, blue 0px 0px 15px, rgb(13, 113, 255) 0px 0px 20px, rgb(13, 113, 255) 0px 0px 30px, rgb(13, 113, 255) 0px 0px 40px, rgb(13, 113, 255) 0px 0px 50px, rgb(13, 113, 255) 0px 0px 75px;
+border: 3px double rgb(255, 156, 1);
+border-radius: 20px;
+color: rgb(181, 214, 255);
+font-family: '8-bit Arcade In';
+font-size: 24px;
 }
 .btn-group {
     margin-top: 80px;
+}
+#nexttomario{
+    display: inline-block;
 }
