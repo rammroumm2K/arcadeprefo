@@ -1,9 +1,9 @@
 @font-face {
-    font-family: '8-bit Arcade In';
-    src: url('../Fonts/8-bitArcadeIn.woff2') format('woff2'),
-        url('../Fonts/8-bitArcadeIn.woff') format('woff'),
-        url('../Fonts/8-bitArcadeIn.ttf') format('truetype');
-    font-weight: 500;
+    font-family: 'Pixeloid Sans';
+    src: url('../Fonts/PixeloidSans.woff2') format('woff2'),
+        url('../Fonts/PixeloidSans.woff') format('woff'),
+        url('../Fonts/PixeloidSans.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -39,10 +39,11 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     border-style: groove;
-    border-radius: 10px 10px 10px 10px
+    border-radius: 10px 10px 10px 10px;
+    
 }
 body {
-    font-family: '8-bit Arcade In';
+    font-family: 'Pixeloid Sans';
     background-image: url("../image/SkyStar.gif");
     background-size: cover;
     font-size: 25px;
@@ -111,7 +112,7 @@ text-shadow: blue 0px 0px 5px, blue 0px 0px 10px, blue 0px 0px 15px, rgb(13, 113
 border: 3px double rgb(255, 156, 1);
 border-radius: 20px;
 color: rgb(181, 214, 255);
-font-family: '8-bit Arcade In';
+font-family: 'Pixeloid Sans';
 font-size: 24px;
 }
 .btn-group {
