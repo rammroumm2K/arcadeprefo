@@ -1,48 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Déclaration du type de document en HTML5 -->
 <html>
-  <header>
-    <Link rel="Stylesheet" type="text/css" href="/css/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Luckiest+Guy|Orbitron|Russo+One|Shadows+Into+Light|Teko&display=swap" rel="stylesheet"> 
-    </header>
-    <title>MENU</title>
-    <style>
-      img {
-    height: 200px;
-    width: 900px;
-    text-align: center;
-    margin: auto;}
-    </style>
+  <header> <!-- En-tête de la page -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- Inclure une feuille de style CSS externe -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Luckiest+Guy|Orbitron|Russo+One|Shadows+Into+Light|Teko&display=swap" rel="stylesheet"> <!-- Charger des polices Google Fonts -->
+  </header>
+  <title>MENU</title> <!-- Titre de la page qui apparaît dans l'onglet du navigateur -->
+  <style>
+    img {
+      height: 200px;  /* Hauteur des images */
+      width: 900px;   /* Largeur des images */
+      text-align: center;  /* Alignement du texte au centre */
+      margin: auto;   /* Centrer les éléments horizontalement */
+    }
+  </style>
+  <body> <!-- Corps de la page -->
+    <!-- Balise audio pour la lecture audio -->
+<audio 
+src="/SOUND/Y2meta.app - Pac-Man Theme 8-bit (128 kbps).mp3" loop autoplay>
+</audio>
 
-<body>
 
-  <div class="frame1"> 
-    <img src="../image/PressStart.gif">
-</div> 
-    <div class="frame">
-      <div class="btn-group">
-          
-          <a href="/index2ARCADE/presentation.html">
-
-              <button class="button" type="button"><h2>START</h2></button><br>
-          </a>
-          <a href="exposition/galerie.html">
-          <button class="button" type="button"><h2>GALLERIE PHOTO</h2></button><br>
+    
+    <div class="frame1"> <!-- Conteneur avec la classe CSS "frame1" -->
+      <img src="../image/PressStart.gif"> <!-- Insérer une image depuis un emplacement spécifié -->
+    </div>
+    <div class="frame"> <!-- Autre conteneur avec la classe CSS "frame" -->
+      <div class="btn-group"> <!-- Groupe de boutons  -->
+        <a href="./index2ARCADE/presentation.html"> <!-- Lien hypertexte vers une page "presentation.html" -->
+          <button class="button" type="button"><h2>START</h2></button> <!-- Bouton "START" avec la classe CSS "button" -->
         </a>
-          <button class="button" type="button"><h2>INTERVIEW</h2></button>
-      </div>    
+        <a href="exposition/galerie.html"> <!-- Lien hypertexte vers une page "galerie.html" dans un dossier "exposition" -->
+          <button class="button" type="button"><h2>GALLERIE PHOTO</h2></button> <!-- Bouton "GALLERIE PHOTO" -->
+        </a>
+        <button class="button" type="button"><h2>INTERVIEW</h2></button> <!-- Bouton "INTERVIEW" -->
       </div>
-      <script>
-
-        /*window.addEventListener("load", function(){
-            const audio = document.createElement("audio");
-            document.body.appendChild(audio);
-            audio.src = "../sounds/FINISHIM.mp3";
-            window.addEventListener("click", ()=>audio.play());
-            
-
-        })*/
-
-
-      </script>
-</body>
-</html>
+    </div>
+    <script>
+      /* Commentaire JavaScript :
+      window.addEventListener("load", function(){
+          const audio = document.createElement("audio");
+          document.body.appendChild(audio);
+          audio.src = "../sounds/FINISHIM.mp3";
+          window.addEventListener("click", ()=>audio.play());
+      })
+      */
+    </script>
+    </body>
+    </html>
