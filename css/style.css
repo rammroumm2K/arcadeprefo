@@ -54,6 +54,9 @@ body {
     font-size: 25px; /* Taille de la police à 25 pixels */
 }
 
+h4{
+    color: rgb(108, 209, 250)
+}
 p {
     color: white; /* Couleur du texte des paragraphes en blanc */
 }
