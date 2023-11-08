@@ -1,6 +1,8 @@
  /* Ajout des styles CSS */
 
         /* Définition de la police personnalisée "Pixeloid Sans" */
+
+        
         @font-face {
             font-family: 'Pixeloid Sans';
             src: url('../Fonts/PixeloidSans.woff2') format('woff2'),
@@ -52,6 +54,7 @@ body {
     background-image: url("../image/SkyStar.gif"); /* Image d'arrière-plan pour le corps */
     background-size: cover; /* Redimensionne l'image d'arrière-plan pour couvrir la totalité de l'élément */
     font-size: 25px; /* Taille de la police à 25 pixels */
+    
 }
 
 h4{
