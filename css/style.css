@@ -158,5 +158,6 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 5px 30px;
-    
-  }
+    cursor: pointer;
+}
+  
