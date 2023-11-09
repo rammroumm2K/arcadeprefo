@@ -83,8 +83,9 @@ main {
     width: 50%; /* La largeur du contenu principal est de 50% de la largeur de son conteneur parent */
     background-color: rgba(67, 67, 67, 0.5); /* Couleur de fond avec transparence pour le contenu principal */
     border: 1px solid white; /* Bordure de 1 pixel solide en blanc autour du contenu principal */
-    padding: 5px; /* Ajoute un espacement de 5 pixels à l'intérieur du contenu principal */
+    padding: 0 40px 0 40px; /* Ajoute un espacement de 5 pixels à l'intérieur du contenu principal */
     margin: auto; /* Centre le contenu principal horizontalement en utilisant la marge automatique */
+    text-align: justify;
 }
 
 footer {
