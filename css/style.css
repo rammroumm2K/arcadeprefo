@@ -147,9 +147,6 @@ footer {
     margin-top: 80px; /* Ajoute une marge en haut de 80 pixels pour l'élément avec la classe "btn-group" */
 }
 
-#nexttomario {
-    display: inline-block; /* Définit l'affichage en ligne-bloc pour l'élément avec l'ID "nexttomario" */
-}
 
 button {
     font-family: 'Pixeloid Sans';
