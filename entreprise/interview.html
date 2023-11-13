@@ -23,21 +23,29 @@
         color: yellow;
         text-shadow: 4px 4px 8px orangered;
     }
+    #NexC{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0.5rem;
+        
+    }
 </style>
 
 <body>
+    <audio src="../SOUND/alexisinterviewMARIO.mp3" id="bgAudio" loop autoplay ></audio>
+    <audio src="../SOUND/mariolose.mp3" id="loserAudio"></audio>
     <h1>INTERVIEW</h1>
     <main>
-        <a href="../index.html"><button type="button">RETOUR AU MENU
-            </button></a>
+      <div id="NexC"><a href="#"><button type="button" onclick="playLoserAudioAndRedirect('../index.html')">RETOUR AU MENU</button></a>
+        <a href="../index2ARCADE/conclusion&orientation.html"><button type="button">NEXT: CONCLUSION</button></a></div>
+            
 
-        <p><strong>Voici quelqes question que j'ai pu faire à <a href="presentation.html">Alexis: </a></strong></p>
+        <p><strong>Voici quelques question que j'ai pu faire à <a href="presentation.html">Alexis: </a></strong></p>
 
         <h4>1. Quels langages de programmation connaissez-vous et dans quels projets les avez-vous utilisés ?</h4>
 
-        <p><strong>Je travaille quotidiennement avec JavaScript, HTML, CSS, XML, Python, et Groovy. J'ai également une
-                expérience en Java, scripting bash pour Linux, et ai contribué à des projets d'entreprise, personnels,
-                ainsi que des projets scolaires dans le passée avec Snafoni.</strong></p>
+        <p><strong>Je travaille quotidiennement avec JavaScript, HTML, CSS, XML, Python, et Groovy. J'ai également une expérience en Java, scripting bash pour Linux, et j'ai contribué à des projets d'entreprise, personnels, ainsi que des projets scolaires dans le passé avec Symfony.</strong></p>
 
         <h4>2. Pouvez-vous décrire le concept de "responsive design" et comment le mettez-vous en œuvre dans vos projets
             ?</h4>
@@ -137,6 +145,7 @@
             <a href="mailto:supermoddingbyramy9@gmail.com">ramyledev@webdev.org</a>
         </p> <!-- Lien vers une adresse e-mail -->
     </footer>
+    <script src="../JS/audio.js"></script>
 </body>
 
 </html>

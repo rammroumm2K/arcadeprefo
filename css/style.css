@@ -12,7 +12,9 @@
             font-style: normal;
             font-display: swap;
         }
-
+html{
+    scroll-behavior: smooth;
+}
         /* Styles pour les liens hypertexte */
         a:link {
             color: rgb(128, 0, 87); /* Couleur des liens non visités */
