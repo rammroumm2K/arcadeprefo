@@ -164,3 +164,30 @@ button {
     cursor: pointer;
 }
   
+
+/* star code css pour gsm */
+
+/* Stili di base */
+
+/* Media query per schermi più piccoli (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 18px; /* Modifica la dimensione del testo per schermi più piccoli */
+        background-size: cover;
+    background-repeat: no-repeat; /* Impedisci la ripetizione dell'immagine di sfondo */
+    font-size: 25px;
+    }
+
+    main {
+        width: 90%; /* Riduci la larghezza del contenuto principale per schermi più piccoli */
+    }
+
+    /* Aggiungi altre regole specifiche per schermi più piccoli se necessario */
+}
+
+/* Media query per schermi di dimensioni medie (min-width: 601px e max-width: 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Regole specifiche per schermi di dimensioni medie */
+}
+
+/* Altre media queries se necessario */
